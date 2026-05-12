@@ -1,2 +1,3 @@
-# Keeping-It-Real-CHI-Play.github.io
-Keepin' It Real Website
+# Welcome to your Lovable project
+
+TODO: Document your project here
