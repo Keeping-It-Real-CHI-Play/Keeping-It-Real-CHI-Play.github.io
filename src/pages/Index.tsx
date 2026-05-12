@@ -214,7 +214,7 @@ const Index = () => {
         <div className="container">
           <SectionHeader icon={Swords} eyebrow="Chapter II" title="Workshop Objectives" />
           <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6 max-w-6xl mx-auto">
-            {goals.map((g) => (
+            {objectives.map((g) => (
               <Card key={g.title} className="group p-6 bg-gradient-parchment border-border/60 hover:border-accent/60 transition-smooth hover:-translate-y-1 hover:shadow-ember">
                 <div className="h-12 w-12 rounded-md bg-gradient-ember flex items-center justify-center shadow-ember mb-5 group-hover:animate-flicker">
                   <g.icon className="h-6 w-6 text-primary-foreground" />
