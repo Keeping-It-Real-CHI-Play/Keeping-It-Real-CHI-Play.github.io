@@ -19,5 +19,5 @@ export default defineConfig(({ mode }) => ({
     },
     dedupe: ["react", "react-dom", "react/jsx-runtime", "react/jsx-dev-runtime", "@tanstack/react-query", "@tanstack/query-core"],
   },
-  base: mode === "production" ? "/vite_react_shadcn_ts/" : "/",
+  base: mode === "production" ? "/Keeping-It-Real-CHI-Play.github.io/" : "/",
 }));
