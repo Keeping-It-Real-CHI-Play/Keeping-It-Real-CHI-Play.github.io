@@ -15,10 +15,10 @@ const nav = [
 ];
 
 const goals = [
-  { icon: Scroll, title: "Objective 1", desc: "Explanation of objective." },
-  { icon: Swords, title: "Objective 2", desc: "Explanation of objective." },
-  { icon: Sparkles, title: "Objective 3", desc: "Explanation of objective." },
-  { icon: Shield, title: "Objective 4", desc: "Explanation of objective." },
+  { icon: Scroll, title: "Forge Narratives", desc: "Explore collaborative storytelling techniques drawn from decades of tabletop tradition." },
+  { icon: Swords, title: "Design Encounters", desc: "Learn to balance challenge, surprise, and player agency in meaningful ways." },
+  { icon: Sparkles, title: "Build Worlds", desc: "Develop tools for creating immersive, lore-rich settings that breathe." },
+  { icon: Shield, title: "Empower Players", desc: "Centre inclusive, safe, and player-driven game design practices." },
 ];
 
 const schedule = [
@@ -34,39 +34,39 @@ const schedule = [
 
 const organisers = [
   {
-    name: "Tim Holland",
-    role: "(Research Area) Researcher",
-    affiliation: "University of Bristol",
-    bio: "Bio.",
+    name: "Mira Vance",
+    role: "Programme Chair",
+    affiliation: "University of Eldoria",
+    bio: "Mira is a narrative designer and lecturer whose research traces the lineage of tabletop role-playing from wargames to modern story games. She has run organised play at conventions across three continents.",
     links: [
       { type: "website", url: "https://example.com/mira" },
       { type: "twitter", url: "https://twitter.com/miravance" },
     ],
   },
   {
-    name: "Jack Burnett",
-    role: "(Research Area) Researcher",
-    affiliation: "University of Bristol",
-    bio: "Bio.",
+    name: "Cassian Roe",
+    role: "CFP Chair",
+    affiliation: "Stormhaven Institute",
+    bio: "Cassian designs encounter systems and writes on procedural worldbuilding. His one-shot 'The Hollow Crown' has been played at over 200 tables worldwide.",
     links: [
       { type: "website", url: "https://example.com/cassian" },
       { type: "linkedin", url: "https://linkedin.com/in/cassianroe" },
     ],
   },
   {
-    name: "Vishal Joshi",
-    role: "(Research Area) Researcher",
-    affiliation: "University of Bristol",
-    bio: "Bio.",
+    name: "Lyra Sothis",
+    role: "Logistics Lead",
+    affiliation: "Guild of Storytellers",
+    bio: "Lyra coordinates community events for the Guild and champions accessible play. She has facilitated safety-tools training for game masters since 2018.",
     links: [
       { type: "website", url: "https://example.com/lyra" },
     ],
   },
   {
-    name: "Writer/Game Dev Organiser",
-    role: "Role",
-    affiliation: "Company",
-    bio: "Bio.",
+    name: "Dr. Halden Brix",
+    role: "Steering Committee",
+    affiliation: "Highmoor College",
+    bio: "Halden's scholarship explores collaborative fiction as a pedagogical tool. He edits the journal 'Shared Worlds' and convenes the annual Highmoor Salon.",
     links: [
       { type: "website", url: "https://example.com/halden" },
       { type: "twitter", url: "https://twitter.com/haldenbrix" },
@@ -88,7 +88,7 @@ const downloadIcs = () => {
   const ics = [
     "BEGIN:VCALENDAR",
     "VERSION:2.0",
-    "PRODID:-//Keepin' It Real//Workshop//EN",
+    "PRODID:-//Quests and Quills//Workshop//EN",
     "CALSCALE:GREGORIAN",
     "METHOD:PUBLISH",
     "BEGIN:VEVENT",
@@ -122,7 +122,7 @@ const Index = () => {
         <nav className="container flex items-center justify-between h-16">
           <a href="#top" className="flex items-center gap-2 font-display font-bold text-lg">
             <Dice6 className="h-5 w-5 text-primary animate-flicker" />
-            <span className="text-gradient-gold">Keepin' It Real</span>
+            <span className="text-gradient-gold">Quests &amp; Quills</span>
           </a>
           <ul className="hidden md:flex items-center gap-6 text-sm">
             {nav.map((n) => (
@@ -152,18 +152,19 @@ const Index = () => {
         <div className="absolute inset-0 bg-gradient-to-b from-background/40 via-transparent to-background" />
 
         <div className="container relative z-10 text-center max-w-4xl animate-fade-up">
-          <p className="text-accent text-sm tracking-[0.4em] uppercase mb-6">A Workshop · CHI Play 2026</p>
+          <p className="text-accent text-sm tracking-[0.4em] uppercase mb-6">A Workshop · Autumn 2026</p>
           <h1 className="font-display text-5xl md:text-7xl lg:text-8xl font-bold leading-tight mb-6">
-            <span className="block text-gradient-ember">Keepin' It Real</span>
+            <span className="block text-gradient-ember">Quests &amp; Quills</span>
             <span className="block text-foreground/90 text-3xl md:text-5xl mt-4 font-normal italic">
-              Authenticity in LLM-based NPCs
+              The Art of Collaborative Storytelling
             </span>
           </h1>
           <div className="divider-rune">
             <Dice6 className="h-5 w-5 text-accent animate-flicker" />
           </div>
           <p className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto mb-8">
-            TODO ABSTRACT/SUBTITLE.
+            A one-day gathering for game masters, designers, scholars, and players exploring
+            the craft of Dungeons &amp; Dragons as a medium for shared narrative.
           </p>
           <div className="flex flex-wrap items-center justify-center gap-4">
             <Button asChild size="lg" className="bg-gradient-ember shadow-ember hover:opacity-90 font-display tracking-wide">
@@ -182,17 +183,21 @@ const Index = () => {
         <div className="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto">
           <Card className="md:col-span-2 p-8 bg-gradient-parchment border-border/60 shadow-deep-card">
             <p className="text-lg leading-relaxed text-foreground/90 mb-4">
-              <span className="font-display text-accent text-2xl">A</span>bstract
+              <span className="font-display text-accent text-2xl">F</span>or over fifty years, Dungeons &amp; Dragons
+              has gathered strangers around tables to weave stories together. This workshop treats that practice
+              as a serious craft — one with lessons for designers, educators, writers, and researchers alike.
             </p>
             <p className="text-muted-foreground leading-relaxed">
-              Expansion of abstract.
+              Across a single day, participants will engage with hands-on sessions, a community panel, and a
+              live one-shot adventure designed to surface the techniques that turn rules into resonance. No prior
+              experience is required — only curiosity and a willingness to roll the dice.
             </p>
           </Card>
           <div className="space-y-4">
             {[
-              { icon: Calendar, label: "Date", value: "TBA" },
-              { icon: MapPin, label: "Venue", value: "York, UK" },
-              { icon: Users, label: "Capacity", value: "TBD" },
+              { icon: Calendar, label: "Date", value: "October 17, 2026" },
+              { icon: MapPin, label: "Venue", value: "The Old Library, Eldoria" },
+              { icon: Users, label: "Capacity", value: "60 participants" },
             ].map((item) => (
               <Card key={item.label} className="p-5 bg-card/60 border-border/60 flex items-start gap-4">
                 <div className="h-10 w-10 rounded-md bg-gradient-ember flex items-center justify-center shadow-ember shrink-0">
@@ -268,13 +273,14 @@ const Index = () => {
           <SectionHeader icon={Feather} eyebrow="Chapter IV" title="Call for Participation" />
           <Card className="p-8 md:p-12 bg-gradient-parchment border-border/60 shadow-deep-card">
             <p className="text-lg text-foreground/90 leading-relaxed mb-8">
-              We invite contributions from TODO.
+              We invite contributions from anyone with something to share at the intersection of tabletop
+              role-playing and craft — be it scholarship, design, pedagogy, or play.
             </p>
             <div className="grid md:grid-cols-2 gap-8 mb-8">
               <div>
-                <h3 className="font-display text-xl text-accent mb-3">Short Position Paper On:</h3>
+                <h3 className="font-display text-xl text-accent mb-3">Submission Tracks</h3>
                 <ul className="space-y-2 text-muted-foreground">
-                  {["Stance on LLM-Based NPCs", "Perceptions of Authenticity in LLM-Based NPCs ", "TODO"].map((t) => (
+                  {["Short papers (4 pages)", "Design provocations (2 pages)", "One-shot adventures", "Demos & playable artefacts"].map((t) => (
                     <li key={t} className="flex items-start gap-2">
                       <span className="text-accent mt-1">✦</span>
                       <span>{t}</span>
@@ -285,10 +291,10 @@ const Index = () => {
               <div>
                 <h3 className="font-display text-xl text-accent mb-3">Important Dates</h3>
                 <ul className="space-y-2 text-muted-foreground">
-                  <li><span className="text-foreground">Submissions open:</span> TODO</li>
-                  <li><span className="text-foreground">Deadline:</span> TODO</li>
-                  <li><span className="text-foreground">Notifications:</span> TODO</li>
-                  <li><span className="text-foreground">Workshop:</span> TODO</li>
+                  <li><span className="text-foreground">Submissions open:</span> May 15, 2026</li>
+                  <li><span className="text-foreground">Deadline:</span> July 31, 2026</li>
+                  <li><span className="text-foreground">Notifications:</span> August 28, 2026</li>
+                  <li><span className="text-foreground">Workshop:</span> October 17, 2026</li>
                 </ul>
               </div>
             </div>
@@ -297,7 +303,7 @@ const Index = () => {
             </div>
             <div className="text-center">
               <Button size="lg" className="bg-gradient-ember shadow-ember hover:opacity-90 font-display tracking-wide">
-                Submit Your Paper
+                Submit Your Scroll
               </Button>
             </div>
           </Card>
@@ -323,23 +329,23 @@ const Index = () => {
               Send a raven, or — failing that — an electronic message:
             </p>
             <a
-              href="mailto:TODO@bristol.ac.uk"
+              href="mailto:hello@questsandquills.org"
               className="font-display text-2xl md:text-3xl text-gradient-gold hover:opacity-80 transition-smooth inline-block"
             >
-              TODO@bristol.ac.uk
+              hello@questsandquills.org
             </a>
             <div className="divider-rune">
               <Dice6 className="h-4 w-4 text-accent" />
             </div>
             <p className="text-sm text-muted-foreground">
-              Keepin' It Real Workshop · The Old Library · Eldoria
+              Quests &amp; Quills Workshop · The Old Library · Eldoria
             </p>
           </Card>
         </div>
       </section>
 
       <footer className="py-8 border-t border-border/40 text-center text-xs text-muted-foreground">
-        © 2026 Keepin' It Real Workshop · May your rolls be ever in your favour.
+        © 2026 Quests &amp; Quills Workshop · May your rolls be ever in your favour.
       </footer>
     </div>
   );
