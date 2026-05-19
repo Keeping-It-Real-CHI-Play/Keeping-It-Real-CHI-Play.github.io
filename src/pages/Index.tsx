@@ -105,7 +105,7 @@ const organisers = [
     name: "Jack Burnett",
     role: "(Research Area) Researcher",
     affiliation: "University of Bristol",
-    bio: "Jack is a PhD student in the Interactive AI Centre for Doctoral Training at the University of Bristol. His research explores human-in-the-loop AI methods to democratise the development of video game controllers, focusing on lowering barriers to creating customised, accessible controllers. Alongside this, he is interested in the design of authentic LLM-driven NPCs, informed by a background in role-playing games and an interest in LLM persona design.",
+    bio: "Jack is a PhD student in the Interactive AI Centre for Doctoral Training at the University of Bristol. His research explores human-in-the-loop AI methods to democratise the development of video game controllers. Alongside this, he is interested in the design of authentic LLM-driven NPCs, informed by a background in role-playing games and an interest in LLM persona design.",
     links: [
       { type: "website", url: "https://jackjburnett.github.io/" },
       { type: "linkedin", url: "https://www.linkedin.com/in/jackjburnett/" },
