@@ -410,16 +410,16 @@ const Index = () => {
                 <ul className="space-y-2 text-muted-foreground">
                   <li>
                     <span className="text-foreground">Submissions open:</span>{" "}
-                    TODO
+                    Now
                   </li>
                   <li>
-                    <span className="text-foreground">Deadline:</span> TODO
+                    <span className="text-foreground">Deadline:</span> October 2nd
                   </li>
                   <li>
-                    <span className="text-foreground">Notifications:</span> TODO
+                    <span className="text-foreground">Notifications:</span> October 16th
                   </li>
                   <li>
-                    <span className="text-foreground">Workshop:</span> TODO
+                    <span className="text-foreground">Workshop:</span> November 2nd
                   </li>
                 </ul>
               </div>
