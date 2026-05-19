@@ -64,37 +64,27 @@ const schedule = [
     desc: "Welcome, coffee, and introductions around the hearth.",
   },
   {
-    time: "09:30",
-    title: "Keynote — The Adventurer's Path",
+    time: "9:15",
+    title: "Session I —",
     desc: "On the enduring craft of shared stories.",
   },
   {
     time: "10:30",
-    title: "Session I — Worldbuilding Forge",
+    title: "Session II —",
     desc: "Hands-on session designing settings, factions, and mysteries.",
   },
   {
-    time: "12:30",
+    time: "12:00",
     title: "Feast Break",
     desc: "Lunch and informal discussion.",
   },
   {
     time: "13:30",
-    title: "Session II — The Encounter Crucible",
+    title: "Session III — The Encounter Crucible",
     desc: "Designing and playtesting one-shot encounters.",
   },
   {
-    time: "15:30",
-    title: "Panel — Voices at the Table",
-    desc: "On accessibility, safety tools, and inclusive play.",
-  },
-  {
     time: "16:30",
-    title: "Session III — Live One-Shot",
-    desc: "Play a short adventure run by workshop facilitators.",
-  },
-  {
-    time: "18:30",
     title: "Closing Rites & Mead",
     desc: "Reflections, awards, and an evening reception.",
   },
