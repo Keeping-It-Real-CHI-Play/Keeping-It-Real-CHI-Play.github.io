@@ -465,7 +465,7 @@ const Index = () => {
           <SectionHeader icon={Mail} eyebrow="Chapter VI" title="Contact" />
           <Card className="p-10 bg-gradient-parchment border-border/60 shadow-deep-card">
             <p className="text-muted-foreground mb-6">
-              Send a raven, or — failing that — an electronic message:
+              Send a raven or, failing that, an electronic message to:
             </p>
             <a
               href="mailto:keepingitreal-chiplay26@bristol.ac.uk"
