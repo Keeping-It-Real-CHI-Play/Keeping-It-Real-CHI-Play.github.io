@@ -105,28 +105,31 @@ const organisers = [
     name: "Tim Holland",
     role: "(Research Area) Researcher",
     affiliation: "University of Bristol",
-    bio: "Bio.",
+    bio: "Tim is a PhD student with the School of Computer Science at the University of Bristol. His research lies at the intersection of artificial intelligence, digital ethics, and games. In his current project, he is investigating the moral uncertainties surrounding the use of LLMs within videogames.",
     links: [
-      { type: "website", url: "https://example.com/mira" },
-      { type: "twitter", url: "https://twitter.com/miravance" },
+      { type: "website", url: "https://biglab.co.uk/member/tim-holland/" },
+      { type: "linkedin", url: "https://www.linkedin.com/in/timmy-holland/" },
     ],
   },
   {
     name: "Jack Burnett",
     role: "(Research Area) Researcher",
     affiliation: "University of Bristol",
-    bio: "Bio.",
+    bio: "Jack is a PhD student in the Interactive AI Centre for Doctoral Training at the University of Bristol. His research explores human-in-the-loop AI methods to democratise the development of video game controllers, focusing on lowering barriers to creating customised, accessible controllers. Alongside this, he is interested in the design of authentic LLM-driven NPCs, informed by a background in role-playing games and an interest in LLM persona design.",
     links: [
-      { type: "website", url: "https://example.com/cassian" },
-      { type: "linkedin", url: "https://linkedin.com/in/cassianroe" },
+      { type: "website", url: "https://jackjburnett.github.io/" },
+      { type: "linkedin", url: "https://www.linkedin.com/in/jackjburnett/" },
     ],
   },
   {
     name: "Vishal Joshi",
     role: "(Research Area) Researcher",
     affiliation: "University of Bristol",
-    bio: "Bio.",
-    links: [{ type: "website", url: "https://example.com/lyra" }],
+    bio: "Vishal is a PhD student in the Interactive AI Centre for Doctoral Training at the University of Bristol, affiliated with the Bristol Interaction Group. His research aims to understand cooperation between LLM-agents as well as human-LLM cooperation, with a particular focus on table-top roleplaying game settings.",
+    links: [
+      { type: "website", url: "https://biglab.co.uk/member/vishal-joshi/" },
+      { type: "linkedin", url: "https://www.linkedin.com/in/vishal-joshi-4a26151b6/" },
+    ],
   },
   {
     name: "Lu Han",
@@ -134,8 +137,8 @@ const organisers = [
     affiliation: "University of Bristol",
     bio: "Bio.",
     links: [
-      { type: "website", url: "https://example.com/halden" },
-      { type: "twitter", url: "https://twitter.com/haldenbrix" },
+      { type: "website", url: "https://biglab.co.uk/member/lu-han/" },
+      { type: "linkedin", url: "https://www.linkedin.com/in/lu-han-17a198391/" },
     ],
   },
 ];
