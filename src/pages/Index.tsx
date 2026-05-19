@@ -276,9 +276,9 @@ const Index = () => {
           </Card>
           <div className="space-y-4">
             {[
-              { icon: Calendar, label: "Date", value: "TODO" },
+              { icon: Calendar, label: "Date", value: "November 2nd" },
               { icon: MapPin, label: "Venue", value: "York, UK" },
-              { icon: Users, label: "Capacity", value: "TODO" },
+              { icon: Users, label: "Capacity", value: "30" },
             ].map((item) => (
               <Card
                 key={item.label}
