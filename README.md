@@ -1,3 +1,3 @@
-# Welcome to your Lovable project
+# Keepin' It Real - CHI Play '26
 
-TODO: Document your project here
+Website for the Keepin' It Real workshop at CHI Play '26.

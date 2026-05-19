@@ -2,7 +2,12 @@ import type { Config } from "tailwindcss";
 
 export default {
   darkMode: ["class"],
-  content: ["./pages/**/*.{ts,tsx}", "./components/**/*.{ts,tsx}", "./app/**/*.{ts,tsx}", "./src/**/*.{ts,tsx}"],
+  content: [
+    "./pages/**/*.{ts,tsx}",
+    "./components/**/*.{ts,tsx}",
+    "./app/**/*.{ts,tsx}",
+    "./src/**/*.{ts,tsx}",
+  ],
   prefix: "",
   theme: {
     container: {
@@ -80,11 +85,23 @@ export default {
         sm: "calc(var(--radius) - 4px)",
       },
       keyframes: {
-        "accordion-down": { from: { height: "0" }, to: { height: "var(--radix-accordion-content-height)" } },
-        "accordion-up": { from: { height: "var(--radix-accordion-content-height)" }, to: { height: "0" } },
-        "flicker": {
-          "0%, 100%": { opacity: "1", filter: "drop-shadow(0 0 8px hsl(var(--primary-glow) / 0.7))" },
-          "50%": { opacity: "0.85", filter: "drop-shadow(0 0 14px hsl(var(--primary-glow) / 0.9))" },
+        "accordion-down": {
+          from: { height: "0" },
+          to: { height: "var(--radix-accordion-content-height)" },
+        },
+        "accordion-up": {
+          from: { height: "var(--radix-accordion-content-height)" },
+          to: { height: "0" },
+        },
+        flicker: {
+          "0%, 100%": {
+            opacity: "1",
+            filter: "drop-shadow(0 0 8px hsl(var(--primary-glow) / 0.7))",
+          },
+          "50%": {
+            opacity: "0.85",
+            filter: "drop-shadow(0 0 14px hsl(var(--primary-glow) / 0.9))",
+          },
         },
         "fade-up": {
           from: { opacity: "0", transform: "translateY(20px)" },
@@ -94,7 +111,7 @@ export default {
       animation: {
         "accordion-down": "accordion-down 0.2s ease-out",
         "accordion-up": "accordion-up 0.2s ease-out",
-        "flicker": "flicker 3s ease-in-out infinite",
+        flicker: "flicker 3s ease-in-out infinite",
         "fade-up": "fade-up 0.7s ease-out both",
       },
     },
