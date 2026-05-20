@@ -93,7 +93,7 @@ const schedule = [
 const organisers = [
   {
     name: "Tim Holland",
-    role: "(Research Area) Researcher",
+    role: "Digital Ethics Researcher",
     affiliation: "University of Bristol",
     bio: "Tim is a PhD student with the School of Computer Science at the University of Bristol. His research lies at the intersection of artificial intelligence, digital ethics, and games. In his current project, he is investigating the moral uncertainties surrounding the use of LLMs within videogames.",
     links: [
@@ -103,7 +103,7 @@ const organisers = [
   },
   {
     name: "Jack Burnett",
-    role: "(Research Area) Researcher",
+    role: "AI for Hardware Development Researcher",
     affiliation: "University of Bristol",
     bio: "Jack is a PhD student in the Interactive AI Centre for Doctoral Training at the University of Bristol. His research explores human-in-the-loop AI methods to democratise the development of video game controllers. Alongside this, he is interested in the design of authentic LLM-driven NPCs, informed by a background in role-playing games and an interest in LLM persona design.",
     links: [
@@ -113,7 +113,7 @@ const organisers = [
   },
   {
     name: "Vishal Joshi",
-    role: "(Research Area) Researcher",
+    role: "LLM-Agents for Games Researcher",
     affiliation: "University of Bristol",
     bio: "Vishal is a PhD student in the Interactive AI Centre for Doctoral Training at the University of Bristol, affiliated with the Bristol Interaction Group. His research aims to understand cooperation between LLM-agents as well as human-LLM cooperation, with a particular focus on table-top roleplaying game settings.",
     links: [
@@ -123,7 +123,7 @@ const organisers = [
   },
   {
     name: "Lu Han",
-    role: "(Research Area) Researcher",
+    role: "Affective AI & Games Researcher",
     affiliation: "University of Bristol",
     bio: "Bio.",
     links: [
