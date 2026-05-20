@@ -80,7 +80,7 @@ const schedule = [
   },
   {
     time: "13:30",
-    title: "Session III — The Encounter Crucible",
+    title: "Session III —",
     desc: "Designing and playtesting one-shot encounters.",
   },
   {
@@ -118,7 +118,10 @@ const organisers = [
     bio: "Vishal is a PhD student in the Interactive AI Centre for Doctoral Training at the University of Bristol, affiliated with the Bristol Interaction Group. His research aims to understand cooperation between LLM-agents as well as human-LLM cooperation, with a particular focus on table-top roleplaying game settings.",
     links: [
       { type: "website", url: "https://biglab.co.uk/member/vishal-joshi/" },
-      { type: "linkedin", url: "https://www.linkedin.com/in/vishal-joshi-4a26151b6/" },
+      {
+        type: "linkedin",
+        url: "https://www.linkedin.com/in/vishal-joshi-4a26151b6/",
+      },
     ],
   },
   {
@@ -128,7 +131,10 @@ const organisers = [
     bio: "Bio.",
     links: [
       { type: "website", url: "https://biglab.co.uk/member/lu-han/" },
-      { type: "linkedin", url: "https://www.linkedin.com/in/lu-han-17a198391/" },
+      {
+        type: "linkedin",
+        url: "https://www.linkedin.com/in/lu-han-17a198391/",
+      },
     ],
   },
 ];
@@ -413,13 +419,16 @@ const Index = () => {
                     Now
                   </li>
                   <li>
-                    <span className="text-foreground">Deadline:</span> October 2nd
+                    <span className="text-foreground">Deadline:</span> October
+                    2nd
                   </li>
                   <li>
-                    <span className="text-foreground">Notifications:</span> October 16th
+                    <span className="text-foreground">Notifications:</span>{" "}
+                    October 16th
                   </li>
                   <li>
-                    <span className="text-foreground">Workshop:</span> November 2nd
+                    <span className="text-foreground">Workshop:</span> November
+                    2nd
                   </li>
                 </ul>
               </div>
@@ -477,7 +486,7 @@ const Index = () => {
       </section>
 
       <footer className="py-8 border-t border-border/40 text-center text-xs text-muted-foreground">
-        © 2026 Keepin' It Real · TODO.
+        © Keepin' It Real · CHI Play '26.
       </footer>
     </div>
   );
