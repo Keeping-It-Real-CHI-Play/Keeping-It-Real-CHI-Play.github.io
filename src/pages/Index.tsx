@@ -191,7 +191,11 @@ const Index = () => {
             href="#top"
             className="flex items-center gap-2 font-display font-bold text-lg"
           >
-            <Dice6 className="h-5 w-5 text-primary animate-flicker" />
+            <img
+                src="/icon.svg"
+                alt="Keepin' It Real icon"
+                className="h-5 w-5 animate-flicker"
+            />
             <span className="text-gradient-gold">Keepin' It Real</span>
           </a>
           <ul className="hidden md:flex items-center gap-6 text-sm">
@@ -232,9 +236,17 @@ const Index = () => {
         <div className="absolute inset-0 bg-gradient-to-b from-background/40 via-transparent to-background" />
 
         <div className="container relative z-10 text-center max-w-4xl animate-fade-up">
-          <p className="text-accent text-sm tracking-[0.4em] uppercase mb-6">
-            A Workshop · CHI Play 2026
-          </p>
+          <div className="flex flex-col items-center mb-6">
+            <img
+                src="/icon.svg"
+                alt="Keepin' It Real icon"
+                className="w-24 h-24 md:w-32 md:h-32 mb-4 animate-flicker"
+            />
+
+            <p className="text-accent text-sm tracking-[0.4em] uppercase">
+              A Workshop · CHI Play 2026
+            </p>
+          </div>
           <h1 className="font-display text-5xl md:text-7xl lg:text-8xl font-bold leading-tight mb-6">
             <span className="block text-gradient-ember">Keepin' It Real</span>
             <span className="block text-foreground/90 text-3xl md:text-5xl mt-4 font-normal italic">
@@ -476,7 +488,11 @@ const Index = () => {
               keepingitreal-chiplay26@bristol.ac.uk
             </a>
             <div className="divider-rune">
-              <Dice6 className="h-4 w-4 text-accent" />
+              <img
+                  src="/icon.svg"
+                  alt="Rune icon"
+                  className="h-4 w-4"
+              />
             </div>
             <p className="text-sm text-muted-foreground">
               Keepin' It Real · CHI Play '26 · York, UK
