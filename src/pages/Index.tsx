@@ -37,75 +37,65 @@ const nav = [
 const objectives = [
   {
     icon: Sparkles,
-    title: "Community Building",
-    desc: "Can we build a community of researchers, writers, and game developers that improve the state of LLM-Based NPCs?",
+    title: "Define Authenticity",
+    desc: "How do we define authenticity within LLM-based NPC design?",
   },
   {
     icon: Scroll,
-    title: "Gaining Understanding",
-    desc: "What are the incongruences between what we believe to be the authenticity of NPCs and the current state of LLM NPCs?",
+    title: "Understand Authenticity",
+    desc: "How is the current state of LLM-based NPCs incongruent with authenticity?",
   },
   {
     icon: Swords,
-    title: "Developing Skills",
-    desc: "How can we instruct LLM NPCs in a robust way, to guarantee performance to the level of algorithmic NPCs?",
+    title: "Develop LLM Skills",
+    desc: "How can we instruct LLM-based NPCs in a robust way, to guarantee performance to the level of algorithmic and hand-authored NPCs?",
   },
   {
     icon: Shield,
-    title: "Grounding in Reality",
-    desc: "How do we design around current LLM limitations and LLM Perceptions?",
+    title: "Design for Authenticity",
+    desc: "How can we design authentic NPCs within and around the current limitations of LLMs?",
   },
 ];
 
 const schedule = [
   {
     time: "09:00",
-    title: "Gathering at the Tavern",
-    desc: "Welcome, coffee, and introductions around the hearth.",
+    title: "Gathering at the Inn",
+    desc: "Welcome, coffee, and introductions.",
   },
   {
     time: "9:15",
-    title: "Session I —",
-    desc: "On the enduring craft of shared stories.",
+    title: "Session I — Authenticity and Embodied Play",
+    desc: "The first session introduces participants to the idea of authenticity in games, exploring believability through case studies of authored NPCs. Participants will then engage in collaborative improvisation focused on embodying characters, concluding with a hands-on experience of AI-native games to promote discussion about their emerging forms.",
   },
   {
     time: "10:30",
-    title: "Session II —",
-    desc: "Hands-on session designing settings, factions, and mysteries.",
+    title: "Session II — LLM NPC Capabilities and Limits",
+    desc: "The second session will focus on current LLM capabilities in NPC design. Through a round-table discussion, participants will examine prevailing assumptions about LLM-NPCs and reflect on their promises and misconceptions. The session will then explore which aspects of believable characterisation remain difficult to achieve with contemporary LLMs, identifying key “stress areas” where immersion breaks down. Through experimental jailbreaking of an LLM, participants will better understand the vulnerabilities and behavioural constraints of LLM-based NPCs.",
   },
   {
     time: "12:00",
-    title: "Feast Break",
-    desc: "Lunch and informal discussion.",
+    title: "Feast Break and Playtesting",
+    desc: "At lunch, participants are invited to share and play-test their own AI-native games in an informal peer feedback session.",
   },
   {
     time: "13:30",
-    title: "Session III —",
-    desc: "Designing and playtesting one-shot encounters.",
+    title: "Session III — Designing Authentic LLM Characters",
+    desc: "The final session moves into experimentation and collaborative design, where participants prompt engineer to explore “stress areas” identified earlier. Participants will then explore various techniques for developing LLM-based characters. These NPCs will be tested through interaction within game scenarios before the workshop concludes with a round-table discussion that assesses authenticity, gameplay experience, and character coherence, as well as future possibilities for LLM-NPC design.",
   },
   {
     time: "16:30",
     title: "Closing Rites & Mead",
-    desc: "Reflections, awards, and an evening reception.",
+    desc: "Reflections followed by the option of a workshop social.",
   },
 ];
 
 const organisers = [
   {
-    name: "Tim Holland",
-    role: "Digital Ethics Researcher",
-    affiliation: "University of Bristol",
-    bio: "Tim is a PhD student with the School of Computer Science at the University of Bristol. His research lies at the intersection of artificial intelligence, digital ethics, and games. In his current project, he is investigating the moral uncertainties surrounding the use of LLMs within videogames.",
-    links: [
-      { type: "website", url: "https://biglab.co.uk/member/tim-holland/" },
-      { type: "linkedin", url: "https://www.linkedin.com/in/timmy-holland/" },
-    ],
-  },
-  {
     name: "Jack Burnett",
-    role: "AI for Hardware Development Researcher",
+    role: "AI for Co-design Researcher",
     affiliation: "University of Bristol",
-    bio: "Jack is a PhD student in the Interactive AI Centre for Doctoral Training at the University of Bristol. His research explores human-in-the-loop AI methods to democratise the development of video game controllers. Alongside this, he is interested in the design of authentic LLM-driven NPCs, informed by a background in role-playing games and an interest in LLM persona design.",
+    bio: "Jack is a PhD student affiliated with the Bristol Interaction Group. His research explores human-in-the-loop AI co-design methods to democratise game controller development and design authentic LLM agents.",
     links: [
       { type: "website", url: "https://jackjburnett.github.io/" },
       { type: "linkedin", url: "https://www.linkedin.com/in/jackjburnett/" },
@@ -115,7 +105,7 @@ const organisers = [
     name: "Vishal Joshi",
     role: "LLM-Agents for Games Researcher",
     affiliation: "University of Bristol",
-    bio: "Vishal is a PhD student in the Interactive AI Centre for Doctoral Training at the University of Bristol, affiliated with the Bristol Interaction Group. His research aims to understand cooperation between LLM-agents as well as human-LLM cooperation, with a particular focus on table-top roleplaying game settings.",
+    bio: "Vishal is an IAI PhD student affiliated with the Bristol Interaction Group. His research aims to understand collaboration in human-LLM hybrid settings, using tabletop RPGs as a testbed.",
     links: [
       { type: "website", url: "https://biglab.co.uk/member/vishal-joshi/" },
       {
@@ -125,10 +115,20 @@ const organisers = [
     ],
   },
   {
+    name: "Tim Holland",
+    role: "Digital Ethics Researcher",
+    affiliation: "University of Bristol",
+    bio: "Tim is a PhD student affiliated with the Bristol Interaction Group. His research lies at the intersection of AI, digital ethics, and games, focusing on the moral uncertainties surrounding the use of LLMs within videogames.",
+    links: [
+      { type: "website", url: "https://biglab.co.uk/member/tim-holland/" },
+      { type: "linkedin", url: "https://www.linkedin.com/in/timmy-holland/" },
+    ],
+  },
+  {
     name: "Lu Han",
     role: "Affective AI & Games Researcher",
     affiliation: "University of Bristol",
-    bio: "Bio.",
+    bio: "Lu is a PhD student affiliated with the Bristol Interaction Group. Her research explores how affective LLMs in historical games can be used to scaffold historical thinking.",
     links: [
       { type: "website", url: "https://biglab.co.uk/member/lu-han/" },
       {
@@ -145,11 +145,10 @@ const linkIcon = (type: string) => {
   return Globe;
 };
 
-// TODO
 // Build an ICS file for the workshop date and trigger a download.
 const downloadIcs = () => {
-  const dtStart = "20261017T090000";
-  const dtEnd = "20261017T193000";
+  const dtStart = "20261102T090000";
+  const dtEnd = "20261102T163000";
   const stamp =
     new Date().toISOString().replace(/[-:]/g, "").split(".")[0] + "Z";
   const ics = [
@@ -159,13 +158,13 @@ const downloadIcs = () => {
     "CALSCALE:GREGORIAN",
     "METHOD:PUBLISH",
     "BEGIN:VEVENT",
-    `UID:quests-quills-2026@questsandquills.org`,
+    `UID:keepingitreal-chiplay26@bristol.ac.uk`,
     `DTSTAMP:${stamp}`,
     `DTSTART:${dtStart}`,
     `DTEND:${dtEnd}`,
-    "SUMMARY:Quests & Quills Workshop",
-    "DESCRIPTION:A one-day workshop on the craft of collaborative storytelling and tabletop role-playing. See https://questsandquills.org for the full schedule.",
-    "LOCATION:The Old Library, Eldoria",
+    "SUMMARY:Keepin' It Real",
+    "DESCRIPTION:A one-day workshop on Authenticity in LLM-based NPCs. See https://keeping-it-real-chi-play.github.io/ for the full schedule.",
+    "LOCATION:York, UK",
     "END:VEVENT",
     "END:VCALENDAR",
   ].join("\r\n");
@@ -257,7 +256,7 @@ const Index = () => {
             <Dice6 className="h-5 w-5 text-accent animate-flicker" />
           </div>
           <p className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto mb-8">
-            TODO (Subtitle/Abstract)
+
           </p>
           <div className="flex flex-wrap items-center justify-center gap-4">
             <Button
@@ -285,11 +284,11 @@ const Index = () => {
         <div className="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto">
           <Card className="md:col-span-2 p-8 bg-gradient-parchment border-border/60 shadow-deep-card">
             <p className="text-lg leading-relaxed text-foreground/90 mb-4">
-              <span className="font-display text-accent text-2xl">A</span>
-              bstract.
+              <span className="font-display text-accent text-2xl">L</span>
+              arge Language Models (LLMs) have the potential to revolutionise immersion and player agency in games by bringing non-player characters (NPCs) to life.
             </p>
             <p className="text-muted-foreground leading-relaxed">
-              Introduction
+              However, technical and normative barriers threaten to undermine their authenticity. This workshop explores authenticity across algorithmic, human-authored, and LLM-based NPC design to identify where this notion breaks down. Through hands-on experience with LLM-based NPCs and collective exercises to assess authenticity and character coherence, we aim to formalise authenticity and develop design guidelines for LLM-based NPC development.
             </p>
           </Card>
           <div className="space-y-4">
@@ -405,15 +404,15 @@ const Index = () => {
           />
           <Card className="p-8 md:p-12 bg-gradient-parchment border-border/60 shadow-deep-card">
             <p className="text-lg text-foreground/90 leading-relaxed mb-8">
-              We invite contributions from TODO
+              We invite 500-word position papers from individuals interested in the workshop.
             </p>
             <div className="grid md:grid-cols-2 gap-8 mb-8">
               <div>
                 <h3 className="font-display text-xl text-accent mb-3">
-                  Short Position Papers (500 Words) On:
+                  Topics of interest include, but are not limited to:
                 </h3>
                 <ul className="space-y-2 text-muted-foreground">
-                  {["TODO", "TODO", "TODO"].map((t) => (
+                  {["Understanding authenticity across forms of NPC design, including algorithmic, human-authored, and generative approaches.", "Existing character design practices related to LLM-NPCs that focus on coherence, intentionality, consistency, and social believability.", "Exploration of design approaches for creating or evaluating authentic character experiences, including how players experience authenticity during game interactions.", "Systems that combine rule-based logic, authored content, and LLMs.", "Aesthetic, ethical, and practical implications of LLMs to mediate character behaviour in games."].map((t) => (
                     <li key={t} className="flex items-start gap-2">
                       <span className="text-accent mt-1">✦</span>
                       <span>{t}</span>
